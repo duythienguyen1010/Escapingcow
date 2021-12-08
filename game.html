@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Escaping Cow: Games</title>
+    <meta name="description" content="3155 final project">
+    <meta name="author" content="Hoang Nguyen">
+    <meta charset="UTF-8">
+
+    <!-- import jquery, dynamic quiz plug-in, and textillate plug in-->
+    <link rel="stylesheet" href="jquery-ui-1.13.0/jquery-ui.min.css">
+    <link href="textillate-master/assets/animate.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Dynamic-Quiz/dist/jquery.quiz-min.css">
+    <link rel="stylesheet" type="text/css" href="Escapingcow.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="textillate-master/assets/jquery.lettering.js"></script>
+    <script src="textillate-master/jquery.textillate.js"></script>
+    <script src="jquery-ui-1.13.0/jquery-ui.js"></script>
+    <script src="Dynamic-Quiz/dist/jquery.quiz-min.js"></script>
+    <script src="Escapingcow.js"></script>
+    <script src="Game.js"></script>
+</head>
+
+<body>
+    <!--hidden header-->
+    <header class="hidden">
+        <h1>Games</h1>
+    </header>
+
+    <main>
+        <!--navigation bar-->
+        <div id="navBar" class="navigation">
+                <span id="navImg">
+                    <a href="https://webpages.uncc.edu/hnguye91/Escapingcow/index.html">
+                    <img alt="escaping cow icon"
+                         src="images/back-ground.png"
+                         id="logo"></a>
+                </span>
+            <ul>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/index.html">Home</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/game.html" id="current">Escape!</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/aboutus.html">About us</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/support.html">Support</a></li>
+            </ul>
+        </div>
+
+        <!--page content-->
+        <div id="sp_body" class="game_format">
+            <!--animated page title-->
+            <h1 id="title"><span class="title_right">Moo Moo on</span><span class="title_left">the run!</span></h1>
+            <!--area displaying the animation of the game-->
+            <div id="game_screen">
+                <img alt="sun" src="images/sun.gif" id="sun">
+                <img alt="chasing cow" src="images/chase.png" id="chasing">
+                <img alt="running cow" src="images/running_cow.gif" id="running_cow">
+            </div>
+            <!--Area displaying the quiz-->
+            <div id="interface">
+                <div id="quiz-header">
+                    <h1>Objective:</h1>
+                    <p><a id="quiz-home-btn">Help Moo Moo escape!</a></p>
+                </div>
+                <div id="quiz-start-screen">
+                    <p>
+                        <a href="#" id="quiz-start-btn" class="quiz-button">Let's Run!</a>
+                    </p>
+                </div>
+                <div id="life_count">
+                    <p><span id="life">Energy left:</span>
+                        <img alt="life" src="images/back-ground.png" id="life1">
+                        <img alt="life" src="images/back-ground.png" id="life2">
+                        <img alt="life" src="images/back-ground.png" id="life3">
+                    </p>
+                </div>
+            </div>
+            <div id="restart">
+                <input type="button" id="game_over_btn" value="Restart">
+            </div>
+        </div>
+
+    </main>
+
+    <!--footer contains copyright claimer-->
+    <footer>
+        <p>Copyright © Nguyen 2021<br>hnguye91@uncc.edu</p>
+    </footer>
+
+</body>
+</html>

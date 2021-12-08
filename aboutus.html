@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Escaping Cow: About us</title>
+    <meta name="description" content="3155 final project">
+    <meta name="author" content="Hoang Nguyen">
+    <meta charset="UTF-8">
+    <!--import jquery & textillate plug-in-->
+    <link href="textillate-master/assets/animate.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="Escapingcow.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="textillate-master/assets/jquery.lettering.js"></script>
+    <script src="textillate-master/jquery.textillate.js"></script>
+    <script src="aboutus.js"></script>
+    <script src="Escapingcow.js"></script>
+</head>
+
+<body>
+    <!--hidden header-->
+    <header class="hidden">
+        <h1>About us</h1>
+    </header>
+
+    <main>
+        <!--navigation bar-->
+        <div id="navBar" class="navigation">
+                <span id="navImg">
+                    <a href="https://webpages.uncc.edu/hnguye91/Escapingcow/index.html">
+                    <img alt="escaping cow icon"
+                         src="images/back-ground.png"
+                         id="logo"></a>
+                </span>
+            <ul>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/index.html">Home</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/game.html">Escape!</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/aboutus.html" id="current">About us</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/support.html">Support</a></li>
+            </ul>
+        </div>
+        <!--page content-->
+        <div id="au_body" class="body_format">
+            <!--animated page title-->
+            <h1 id="title"><span class="title_right">About</span><span class="title_left">us</span></h1>
+            <!--buttons for AJAX function calls-->
+            <div id="people_btns">
+                <input type="button" id="contributor_btn" value="Contributor" title="Contributor">
+                <input type="button" id="developer_btn" value="Developer" title="Developer">
+            </div>
+            <!--Modified by AJAX function calls-->
+            <div id="people">
+                <img alt="Tim Nguyen" src="images/Sefie.jpg" id="au1">
+                <h2 class="center">Hoang Duy Thien Nguyen</h2>
+                <h3 class="center">Software Engineering - Undergraduate</h3>
+                <p>
+                    Hoang Duy Thien Nguyen (Tim Nguyen) is a current undergraduate at the University
+                    of North Carolina in Charlotte. He is currently pursuing a Bachelor's in Computer
+                    Science with a concentration in Software Engineering and a minor in Physics.
+                </p>
+                <p>
+                    He created this website hoping to spread the joy of coding to younger generation.
+                    As the world advances more and more into a digital age, software developer become
+                    a high demand job and coding languages become more and more familiar with society.
+                    Escaping Cow was created to help people practice and learn simple, basic python skills
+                    in a fun and friendly way.
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <!--footer contains copyright claimer-->
+    <footer>
+        <p>Copyright © Nguyen 2021<br>hnguye91@uncc.edu</p>
+    </footer>
+
+</body>
+</html>

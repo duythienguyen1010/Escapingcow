@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Escaping Cow: Contact Us</title>
+    <meta name="description" content="3155 final project">
+    <meta name="author" content="Hoang Nguyen">
+    <meta charset="UTF-8">
+    <!--import jquery & textillate plug-in-->
+    <link href="textillate-master/assets/animate.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="Escapingcow.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="textillate-master/assets/jquery.lettering.js"></script>
+    <script src="textillate-master/jquery.textillate.js"></script>
+    <script src="contact.js"></script>
+    <script src="Escapingcow.js"></script>
+</head>
+
+<body>
+    <!--hidden header-->
+    <header class="hidden">
+        <h1>Contact Us</h1>
+    </header>
+
+    <main>
+        <!--navigation bar-->
+        <div id="navBar" class="navigation">
+                <span id="navImg">
+                    <a href="https://webpages.uncc.edu/hnguye91/Escapingcow/index.html">
+                    <img alt="escaping cow icon"
+                         src="images/back-ground.png"
+                         id="logo"></a>
+                </span>
+            <ul>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/index.html">Home</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/game.html">Escape!</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/aboutus.html">About us</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/support.html" id="current">Support</a></li>
+            </ul>
+        </div>
+        <!--page content-->
+        <div id="contact_body" class="body_format">
+            <form id="contact" name="contact us" action="#">
+                <!--animated page title-->
+                <h1 id="title"><span class="title_right">Contact</span><span class="title_left">us</span></h1>
+                <br><label for="name">Full Name&#42;</label>
+                <br><input type="text" required id="name" name="name"
+                       placeholder="First Last">
+                <br><label for="email">Email&#42;</label>
+                <br><input type="email" required id="email" name="email"
+                       placeholder="myemail@example.com">
+                <br><label for="feedback">What do you want to tell us?</label>
+                <textarea name="feedback" id="feedback"
+                          placeholder="I love Moo Moo..." rows="4" cols="20"></textarea><br>
+                <input type="submit" id="submit" value="submit">
+            </form>
+        </div>
+
+    </main>
+
+    <!--footer contains copyright claimer-->
+    <footer>
+        <p>Copyright © Nguyen 2021<br>hnguye91@uncc.edu</p>
+    </footer>
+
+</body>
+</html>

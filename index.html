@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Escaping Cow Home Page</title>
+    <meta name="description" content="3155 final project">
+    <meta name="author" content="Hoang Nguyen">
+    <meta charset="UTF-8">
+    <!--import jquery & textillate plug-in-->
+    <link href="textillate-master/assets/animate.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="Escapingcow.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="textillate-master/assets/jquery.lettering.js"></script>
+    <script src="textillate-master/jquery.textillate.js"></script>
+    <script src="index.js"></script>
+    <script src="Escapingcow.js"></script>
+</head>
+
+<body>
+    <!--hidden header-->
+    <header class="hidden">
+        <h1>Escaping Cow</h1>
+    </header>
+
+    <main>
+        <!--navigation bar-->
+        <div id="navBar" class="navigation">
+            <span id="navImg">
+                <a href="https://webpages.uncc.edu/hnguye91/Escapingcow/index.html">
+                <img alt="escaping cow icon"
+                 src="images/back-ground.png"
+                 id="logo"></a>
+            </span>
+            <ul>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/index.html"
+                       class="title_right" id="current">Home</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/game.html"
+                       class="title_left">Escape!</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/aboutus.html"
+                       class="title_right">About us</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/support.html"
+                       class="title_left">Support</a></li>
+            </ul>
+        </div>
+
+        <!--page content-->
+        <div class="body_format">
+            <!--animated page title-->
+            <h1 id="title"><span class="title_right">Escaping</span><span class="title_left">cow</span></h1>
+            <!--row 1 content-->
+            <div id="par1">
+                <img alt="homepage illustration 1" src="images/hp1.jpg" id="hp1">
+                <h3 class="padRight">Learn Python with Moo Moo</h3>
+                <p class="padRight">
+                    Escaping cow is a website that make learning and
+                    practice basic Python fun and friendly. Help Moo Moo escape a
+                    dangerous situation by provide correct answer to simple quiz questions
+                    about Python! What are you waiting for?
+                    Moo Moo needs you!
+                </p>
+                <input type="button" id="row1-button" value="Let's play the game!">
+            </div>
+            <br>
+            <!--row 2 content-->
+            <div id="par2">
+                <img alt="homepage illustration 2" src="images/whatanicecow.PNG" id="hp2">
+                <h3 class="padLeft">The Moo Moo creator</h3>
+                <p class="padLeft">
+                    Escaping cow is a project at class level, developed by Tim Nguyen.
+                    Using simple quizzes, Escaping Cow aim to help future or current coders
+                    practice and hone their skills.
+                    Learn more about him and what is his motivation behind this website.
+                </p>
+                <input type="button" id="row2-button" value="Learn more about us">
+            </div>
+        </div>
+
+    </main>
+
+    <!--footer contains copyright claimer-->
+    <footer>
+        <p>Copyright © Nguyen 2021<br>hnguye91@uncc.edu</p>
+    </footer>
+
+</body>
+</html>

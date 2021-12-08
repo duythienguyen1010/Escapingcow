@@ -1,0 +1,105 @@
+1. What will be the output of the following code: 
+print type(type(int))
+A
+type 'int'
+B
+type 'type'
+C
+Error
+D
+0
+
+2. What is the output of the following code :L = ['a','b','c','d']
+print("".join(L))
+A
+Error
+B
+None
+C
+abcd
+D
+[‘a’,’b’,’c’,’d’]
+
+3. What is the output of the following segment :
+chr(ord('A'))
+A
+A
+B
+B
+C
+a
+D
+Error
+
+4. What is the output of the following code :
+print 9//2
+Run on IDE
+A
+4.5
+B
+4.0
+C
+4
+D
+Error
+
+5. Which function overloads the >> operator?
+A
+more()
+B
+gt()
+C
+ge()
+D
+None of the above
+
+6. Which operator is overloaded by the or() function?
+A
+||
+B
+|
+C
+//
+D
+/
+
+7. Which of these is not a core data type?
+A
+Lists
+B
+Dictionary
+C
+Tuples
+D
+Class
+
+8. What data type is the object below ? L = [1, 23, ‘hello’, 1]
+A
+List
+B
+Dictionary
+C
+Tuple
+D
+Array
+
+9. Which of the following function convert a string to a float in python?
+A
+int(x [,base])
+B
+long(x [,base] )
+C
+float(x)
+D
+str(x)
+
+10. What is the output of the following program :
+print "Hello World"[::-1]
+A
+dlroW olleH
+B
+Hello Worl
+C
+d
+D
+Error

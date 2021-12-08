@@ -1,0 +1,11 @@
+{"people":[
+  {
+    "full_name": "Aaron Zhang",
+    "first_name": "Aaron",
+    "image": "images/Aaron.jpg",
+    "department": "Data Science",
+    "bio": "Undergraduate",
+    "text1": "Aaron Zhang is a current undergraduate at the University of North Carolina in Charlotte. He is currently pursuing a Bachelor's in Computer Science with a concentration in Software Engineering and a minor in Physics.",
+    "text2" : "He created this website hoping to spread the joy of coding to younger generation. As the world advances more and more into a digital age, software developer become a high demand job and coding languages become more and more familiar with society. Escaping Cow was created to help people practice and learn simple, basic python skills in a fun and friendly way."
+  }
+]}

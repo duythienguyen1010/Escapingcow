@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Escaping Cow: Support</title>
+    <meta name="description" content="3155 final project">
+    <meta name="author" content="Hoang Nguyen">
+    <meta charset="UTF-8">
+    <!--import jquery & textillate plug-in, and Accordion widget-->
+    <link href="textillate-master/assets/animate.css" rel="stylesheet" />
+    <link rel="stylesheet" href="jquery-ui-1.13.0/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="Escapingcow.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="jquery-ui-1.13.0/jquery-ui.js"></script>
+    <script src="textillate-master/assets/jquery.lettering.js"></script>
+    <script src="textillate-master/jquery.textillate.js"></script>
+    <script src="support.js"></script>
+    <script src="Escapingcow.js"></script>
+</head>
+
+<body>
+    <!--hidden header-->
+    <header class="hidden">
+        <h1>Support</h1>
+    </header>
+
+    <main>
+        <!--navigation bar-->
+        <div id="navBar" class="navigation">
+                <span id="navImg">
+                    <a href="https://webpages.uncc.edu/hnguye91/Escapingcow/index.html">
+                    <img alt="escaping cow icon"
+                         src="images/back-ground.png"
+                         id="logo"></a>
+                </span>
+            <ul>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/index.html">Home</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/game.html">Escape!</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/aboutus.html">About us</a></li>
+                <li><a href="https://webpages.uncc.edu/hnguye91/Escapingcow/support.html" id="current">Support</a></li>
+            </ul>
+        </div>
+
+        <!--page content-->
+        <div id="sp_body" class="body_format">
+            <!--animated page title-->
+            <h1 id="title"><span class="title_right">How can we</span><span class="title_left">help you</span></h1>
+            <img alt="support" src="images/support1.png" id="sp1">
+
+            <!--FAQ-->
+            <h3>Frequently asked questions</h3>
+            <!--accordion widget for FAQ-->
+            <div id="drop_down">
+                <h3 class="question">How do I play the game?</h3>
+                <div>
+                    <p>
+                        You can play the game by clicking on the links on the navigation bar or on the
+                        homepage, right now there is only one game available for you to play and learn
+                        basic Python. But we are planning to do more in the future.
+                    </p>
+                </div>
+                <h3 class="question">Is the games hard?</h3>
+                <div>
+                    <p>
+                        The game can be quite challenging if players has no general idea about coding, we would
+                        suggest that you use our game as a way to practice and learn new concepts. There are many site
+                        that can help you learn the materials such as KhanAcademy.
+                    </p>
+                </div>
+                <h3 class="question">What do I do if I can't solve an encountered problem?</h3>
+                <div>
+                    <p>
+                        You can search up the questions or the concepts online to learn more about it.
+                        If you still don't understand, please contact us using the link below, we are
+                        happy to help and will reach you as soon as possible!
+                    </p>
+                </div>
+            </div>
+            <input type="button" id="contactBtn" value="Contact us">
+
+            <!--Additional info-->
+            <h3>Additional information from youtube</h3>
+            <div id="videos">
+                <!--Search bar-->
+                <label for="search">Search YouTube video</label>
+                <br><input type="text" id="search" name="search"
+                           placeholder="Search" value="">
+                <img src="images/search.png" id="search_btn">
+                <br>
+                <!--Display result-->
+                <iframe src=""></iframe>
+                <h4 id="vid_title">Video Title</h4>
+                <p class="description">Video Description<p>
+            </div>
+        </div>
+
+    </main>
+
+    <!--footer contains copyright claimer-->
+    <footer>
+        <p>Copyright © Nguyen 2021<br>hnguye91@uncc.edu</p>
+    </footer>
+
+</body>
+</html>

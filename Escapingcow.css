@@ -1,0 +1,258 @@
+/*General Format**************************************************/
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Comic Sans MS";
+    text-align: left;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 20%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    -webkit-transition: color 1s ease;
+    -moz-transition: color 1s ease;
+    -o-transition: color 1s ease;
+    transition: color 1s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.body_format {
+    display: block;
+    text-align: left;
+    padding: 3%;
+    background-color: navajowhite;
+}
+
+footer, footer a {
+    background-color: saddlebrown;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+
+/*Navigation Bar format**********************************************/
+.navigation {
+    background-color: saddlebrown;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 10%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation > ul{
+    margin: 0;
+    padding: 2%;
+    overflow: hidden;
+}
+
+.navigation > ul > li {
+    display: inline-block;
+    float: left;
+}
+
+.navigation > ul > li a{
+    color: white;
+    text-align: center;
+    padding: 2em 2em;
+    text-decoration: none;
+}
+
+#navImg {
+    float: left;
+    padding: 1%;
+}
+
+#logo {
+    width: 2.9em;
+    border-radius: 40%;
+}
+
+li a:hover {
+    background-color: brown;
+}
+
+#current {
+    background-color: brown;
+}
+
+/*index page format***************************************/
+#hp1{
+    display: inline-block;
+    float: left;
+    padding: 0 2em 2em;
+    width: 50%;
+    height: auto;
+}
+
+#hp2{
+    display: inline-block;
+    float: right;
+    padding: 0 6em 2em 2em;
+    width: 20%;
+    height: auto;
+}
+
+/*Button format****************************************/
+input, textarea{
+    width: 92%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background-color: white;
+    border-color: transparent;
+}
+
+input[type="button"], input[type="submit"] {
+    background-color: saddlebrown;
+    color: white;
+    border-color: brown;
+    display: block;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#contributor_btn, #developer_btn {
+    display: inline-block;
+    width: 20%;
+}
+
+#people_btns {
+    text-align: center;
+}
+
+#search_btn{
+    display: inline-block;
+    width: 5%;
+    height: 5%;
+    background-color: saddlebrown;
+    margin: 0.5%;
+    padding: 0.5%;
+    border-radius: 30%;
+}
+
+#search {
+    width: 50%;
+}
+
+#search_btn:hover {
+    background-color: brown;
+}
+
+/*General class format************************************/
+.padLeft {
+    padding-left: 2em;
+}
+
+.padRight {
+    padding-right: 2em;
+}
+
+.center {
+    text-align: center;
+}
+
+.question {
+    font-weight: bold;
+    background-color: saddlebrown;
+    color: white;
+}
+
+.question:hover {
+    background-color: brown;
+}
+
+/*Images format********************************/
+#au1, #sp1, #broken {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 20em;
+ }
+
+/*Game play site format********************************/
+#game_screen {
+    width: 40%;
+    height: auto;
+    background-color: white;
+    display: inline-block;
+    background-image: url("images/farm.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#interface {
+    font-size: 70%;
+    padding-top: 0;
+    margin-top: 0;
+    width: 50%;
+    height: auto;
+    display: inline-block;
+}
+
+#life_count img {
+    width: 5%;
+    border-radius: 40%;
+}
+
+#chasing {
+    width: 30%;
+    height: auto;
+    z-index: 2;
+    position: relative;
+    left: 0;
+}
+
+#running_cow {
+    width: 20%;
+    z-index:3;
+    position: relative;
+    left: 30%;
+}
+
+#sun {
+    width: 20%;
+    z-index: 1;
+    position: relative;
+    display: block;
+}
+
+#game_over {
+    width: 20%;
+    z-index: 3;
+}
+
+#restart {
+    display: none;
+}
+
+#life {
+    color: saddlebrown;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    display: inline-block;
+}
+
+#life_count {
+    text-align: center;
+}
+
+.game_format {
+    min-height: 100%;
+    display: block;
+    text-align: left;
+    padding: 3%;
+    background-color: navajowhite;
+}
