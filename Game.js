@@ -250,8 +250,8 @@ $(document).ready(function() {
 
                 //Load the game over screen when life ran out
                 if (wrongAnswer === 3) {
-                    $("#chasing").fadeOut(3000)
-                    $("#running_cow").fadeOut(3000, function (){
+                    $("#chasing").fadeOut(2000)
+                    $("#running_cow").fadeOut(2000, function (){
                         $("#game_screen").animate({
                             width: "100%"
                         })

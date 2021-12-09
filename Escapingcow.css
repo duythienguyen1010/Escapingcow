@@ -165,14 +165,18 @@ input[type="button"], input[type="submit"] {
 
 .question {
     font-weight: bold;
+}
+
+#drop_down h3{
+    font-weight: bold;
+    color: white;
     background-color: saddlebrown;
     color: white;
 }
 
-.question:hover {
+#drop_down h3:hover{
     background-color: brown;
 }
-
 /*Images format********************************/
 #au1, #sp1, #broken {
      display: block;
